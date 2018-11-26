@@ -1,0 +1,22 @@
+
+.shootCell { 
+	position: absolute;
+	width:30px;
+	height: 30px;
+	border: 1px;
+	border-style: groove;
+	border-color: #cacd58;
+	padding: 3px;
+    background-color: cyan;
+   }
+  
+#SetShipField {
+	position: absolute;
+	border: 0px;
+	border-style: groove;
+	width: 400px;
+	height: 300px;
+	top: 80px;
+    left: 200px;
+	bottom: 0; right: 0;
+   }
