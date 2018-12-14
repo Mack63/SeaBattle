@@ -1,6 +1,6 @@
-<?
+<?php
 require("Controllers/Controller.php");
 
-$c = new Controller();
-$c->Action($_GET);
+$playGame = new Controller();
+$playGame->Action($_GET);
 

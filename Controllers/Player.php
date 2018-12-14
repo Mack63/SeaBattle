@@ -1,13 +1,13 @@
-<?
+<?php
 require_once("View/SetPlayerView.php");
 require_once("View/StartGameView.php");
 require("View/OnGameView.php");
 
 class Player{
 	
-	private function ChangeValueSet($serchKey,&$arr, $field){
-		if(array_key_exists($serchKey,$arr)){
-			$arr[$serchKey] = $field;
+	private function ChangeValueSet($serchKey, &$array, $field){
+		if(array_key_exists($serchKey, $array)){
+			$array[$serchKey] = $field;
 			return true;
 		}
 			return false;

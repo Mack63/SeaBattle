@@ -1,4 +1,4 @@
-<?
+<?php
 
 class StartGameView{
 	
@@ -34,8 +34,8 @@ class StartGameView{
 		echo '<table id = "myField" >';
 		foreach ($arrayField as $array1) {
 			echo '<tr>';
-				foreach ($array1 as $array2 => $v) {
-					echo "<td id = $v >$array2<td>";
+				foreach ($array1 as $array2 => $value) {
+					echo "<td id = $value >$array2<td>";
 				}
 			echo '</tr>';
 		}

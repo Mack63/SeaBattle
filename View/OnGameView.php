@@ -1,4 +1,4 @@
-<?
+<?php
 class OnGameView{
 	public function OnGameViewR($arrayFieldMe, $arrayFieldBot, $playerName, $playerName2, $shootResult){
 		
@@ -33,8 +33,8 @@ class OnGameView{
 		echo '<table id = "myField" >';
 		foreach ($arrayFieldMe as $array1) {
 			echo '<tr>';
-				foreach ($array1 as $array2 => $v) {
-					echo "<td id = $v >$array2<td>";
+				foreach ($array1 as $array2 => $value) {
+					echo "<td id = $value >$array2<td>";
 				}
 			echo '</tr>';
 		}
@@ -43,24 +43,13 @@ class OnGameView{
 		echo '<table id = "shootField" >';
 		foreach ($arrayFieldBot as $array1) {
 			echo '<tr>';
-				foreach ($array1 as $array2 => $v) {
-					echo "<td class = $v id = $array2 >$array2<td>";
+				foreach ($array1 as $array2 => $value) {
+					echo "<td class = $value id = $array2 >$array2<td>";
 				}
 			echo '</tr>';
 		}
 		echo '<table>';
 		
-		
-		
-		// echo '<table id = "shootField">';
-		// for ($i=0; $i<9;$i++) { // кол-во строк
-			// echo '<tr>';
-				// for ($j=0;$j<9;$j++) { // кол-во столбцов
-					// echo '<td id = '."$i$j".' class = "shootCell"><td>';
-				// }
-			// echo '</tr>';
-		// }
-		// echo '</table>';
 		
 		}
 	
